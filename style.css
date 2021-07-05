@@ -22,7 +22,6 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 20px;
-
 }
 a{
     text-decoration: none;
@@ -58,7 +57,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #050505;
+    background: #163563;
     color: #fff;
     padding: 8px  30px;
     margin: 30px 0px;
@@ -66,10 +65,10 @@ p{
     transition: background 0.5s    
 }
 .btn:hover{
-    background: #6e3434;
+    background: #270664;
 }
 .header{
-    background: radial-gradient(rgb(158, 125, 125),#8d4646);
+    background: radial-gradient(rgb(172, 148, 148),#493e77);
 }
 .header .row{
     margin-top: 70px;
@@ -130,3 +129,16 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
+.offer{
+    background: radial-gradient(#fff,#fff);
+    margin-top: 80px;
+    padding: 30px 0; 
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #050505;
+}
+
+    
